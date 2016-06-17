@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		<%= title %>
+	</title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<link rel='stylesheet' href='/stylesheets/bootstrap/dist/css/bootstrap-theme.min.css' />
+	<link rel='stylesheet' href='/stylesheets/bootstrap/dist/css/bootstrap.min.css' />
+	<link rel='stylesheet' href='/stylesheets/bootstrap/dist/js/bootstrap.min.js' />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+	<% if(messages.sucess) { %>
+		<div class="alert alert-success" role="alert" data-dismiss="alert">
+			<a href="#" class="alert-link">
+				<%= messages.sucess %>
+			</a>
+		</div>
+		<% } %>
+		<% if(messages.error) { %>
+			<div class="alert alert-danger" role="alert" data-dismiss="alert">
+				<a href="#" class="alert-link">
+					<%= messages.error %>
+				</a>
+			</div>
+		<% } %>

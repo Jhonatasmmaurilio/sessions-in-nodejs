@@ -1,0 +1,33 @@
+{
+	"name": "sessions-in-nodejs",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Building aplication in nodejs with sessions to login",
+	"scripts": {
+		"start": "node ./bin/www"
+	},
+	"dependencies": {
+		"body-parser": "~1.13.2",
+		"cookie-parser": "~1.3.5",
+		"debug": "~2.2.0",
+		"ejs": "~2.3.3",
+		"express": "~4.13.1",
+		"morgan": "~1.6.1",
+		"express-flash": "*",
+		"nodemon": "*",
+		"bootstrap": "3.3.6"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Jhonatasmmaurilio/sessions-in-nodejs"
+	},
+	"keywords": [
+    "nodejs",
+    "sessions",
+    "node",
+    "login"
+  ],
+	"author": "Jhonatas MM",
+	"license": "MIT",
+	"homepage": "https://github.com/Jhonatasmmaurilio/sessions-in-nodejs/readme"
+}

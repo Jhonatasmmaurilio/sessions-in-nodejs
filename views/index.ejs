@@ -1,0 +1,26 @@
+<% include header %>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					<p>Wellcome
+						<%= user %>
+					</p>
+				</a>
+				<a href="/logout" class="btn btn-default navbar-btn navbar-link" style="float:right; margin-right: 10px">
+					logout in
+				</a>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="jumbotron">
+				<h1>Hello, <%= user %>!</h1>
+				<p>This a simple page make with nodejs, using session for to login.</p>
+				<p><a class="btn btn-primary btn-lg" href="https://bitbucket.org/jhonatas_mathias_maurilio/sessions-in-nodejs#readme" role="button">Learn more</a></p>
+			</div>
+		</div>
+	</div>
+
+	<% include fotter %>
